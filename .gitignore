@@ -1,1 +1,6 @@
 **/[Ss]cript/
+**/pyproject.toml
+**/.python-version
+**/__pypackages__/
+**/.venv/
+**/venv/
