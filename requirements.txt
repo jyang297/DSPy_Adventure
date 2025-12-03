@@ -1,0 +1,19 @@
+# Core DSPy Framework
+dspy-ai>=2.5.0
+
+# LM Provider Options (install as needed)
+openai>=1.0.0
+anthropic>=0.25.0
+
+# Development Dependencies
+pytest>=8.0.0
+pytest-cov>=4.1.0
+black>=24.0.0
+ruff>=0.3.0
+
+# Type Checking
+mypy>=1.8.0
+
+# Documentation & Examples
+jupyter>=1.0.0
+notebook>=7.0.0

@@ -8,24 +8,19 @@ This is a comprehensive, project-driven DSPy learning course that teaches throug
 
 ## Quick Start (5 minutes)
 
-### 1. Navigate to the Course
-```bash
-cd dspy-course/
-```
-
-### 2. Read the Overview
+### 1. Read the Overview
 ```bash
 cat README.md
 ```
 
-### 3. Start Module 01
+### 2. Start Module 01
 ```bash
 cd modules/01-signatures/
 cat guide/overview.md
 python guide/annotated_examples.py
 ```
 
-### 4. Try the Challenge
+### 3. Try the Challenge
 ```bash
 cd challenge/
 cat tasks.md
