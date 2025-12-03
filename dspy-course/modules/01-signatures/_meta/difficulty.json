@@ -1,0 +1,147 @@
+{
+  "module": "01-signatures",
+  "version": "1.0.0",
+  "difficulty": {
+    "overall": "beginner",
+    "scale": "1-10",
+    "rating": 3,
+    "breakdown": {
+      "concepts": 2,
+      "coding": 3,
+      "debugging": 3
+    }
+  },
+  "estimated_hours": {
+    "minimum": 4,
+    "recommended": 6,
+    "mastery": 8
+  },
+  "prerequisites": {
+    "required": [
+      "Python basics (classes, type hints)",
+      "Understanding of function signatures",
+      "Familiarity with docstrings"
+    ],
+    "helpful": [
+      "Experience with prompt engineering",
+      "Knowledge of LM capabilities",
+      "Understanding of data validation"
+    ]
+  },
+  "skills_developed": {
+    "technical": [
+      "Defining DSPy Signatures",
+      "Using InputField and OutputField",
+      "Writing effective field descriptions",
+      "Applying type hints",
+      "Composing multi-field signatures"
+    ],
+    "conceptual": [
+      "Understanding declarative programming",
+      "Separating specification from implementation",
+      "Thinking in contracts",
+      "LM-agnostic design"
+    ],
+    "meta": [
+      "Comparing official vs community patterns",
+      "Evaluating trade-offs",
+      "Debugging through better specifications"
+    ]
+  },
+  "challenge_difficulty": {
+    "task_1": {
+      "name": "Basic Signature",
+      "difficulty": 2,
+      "estimated_time_minutes": 15
+    },
+    "task_2": {
+      "name": "Multi-field Signature",
+      "difficulty": 3,
+      "estimated_time_minutes": 30
+    },
+    "task_3": {
+      "name": "Signature with Validation",
+      "difficulty": 4,
+      "estimated_time_minutes": 45
+    },
+    "bonus": {
+      "name": "Complex Task Signature",
+      "difficulty": 5,
+      "estimated_time_minutes": 60
+    }
+  },
+  "common_pitfalls": [
+    {
+      "pitfall": "Missing docstring",
+      "impact": "LM doesn't understand task context",
+      "solution": "Always include clear task description"
+    },
+    {
+      "pitfall": "Vague field descriptions",
+      "impact": "LM produces inconsistent output",
+      "solution": "Be specific about format and constraints"
+    },
+    {
+      "pitfall": "Too many output fields",
+      "impact": "LM may skip or hallucinate fields",
+      "solution": "Start simple, add fields incrementally"
+    },
+    {
+      "pitfall": "Wrong type hints",
+      "impact": "Validation errors or unexpected behavior",
+      "solution": "Match types to actual data structure"
+    },
+    {
+      "pitfall": "Over-specification",
+      "impact": "Reduced LM creativity, brittle behavior",
+      "solution": "Balance detail with flexibility"
+    }
+  ],
+  "success_indicators": [
+    "Signature compiles without errors",
+    "LM produces expected output format",
+    "Code works with different LM providers",
+    "Field descriptions are clear and actionable",
+    "Can explain design choices"
+  ],
+  "tags": [
+    "fundamentals",
+    "signatures",
+    "declarative",
+    "contracts",
+    "input-output",
+    "beginner-friendly"
+  ],
+  "dspy_features": [
+    "dspy.Signature",
+    "dspy.InputField",
+    "dspy.OutputField",
+    "field descriptions",
+    "type hints",
+    "docstrings"
+  ],
+  "related_modules": {
+    "prerequisites": [],
+    "follows": [
+      "02-modules-and-forward",
+      "03-teleprompters"
+    ],
+    "related": [
+      "08-evaluation-driven-development",
+      "09-error-handling-quality-guards"
+    ]
+  },
+  "learning_curve": {
+    "initial_complexity": "low",
+    "concept_depth": "medium",
+    "mastery_ceiling": "medium-high",
+    "description": "Easy to start, nuanced to master. Basic signatures are simple, but designing effective ones for complex tasks requires understanding LM behavior."
+  },
+  "metadata": {
+    "created": "2025-12-03",
+    "last_updated": "2025-12-03",
+    "status": "stable",
+    "dspy_version_target": "2.5+",
+    "python_version_min": "3.9"
+  }
+}

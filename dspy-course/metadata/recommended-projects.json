@@ -1,0 +1,326 @@
+{
+  "official": {
+    "name": "DSPy Official Repository",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "stars": "30500+",
+    "focus": "Core framework and official examples",
+    "difficulty": "beginner-advanced",
+    "topics": [
+      "signatures",
+      "modules",
+      "optimizers",
+      "rag",
+      "agents"
+    ],
+    "best_for": [
+      "understanding core concepts",
+      "official API usage",
+      "framework internals"
+    ],
+    "key_files": [
+      "examples/",
+      "docs/docs/tutorials/",
+      "dspy/predict/",
+      "dspy/teleprompt/"
+    ]
+  },
+  "community_projects": [
+    {
+      "name": "gabrielvanderlei/DSPy-examples",
+      "url": "https://github.com/gabrielvanderlei/DSPy-examples",
+      "stars": "500+",
+      "focus": "Practical examples from simple to complex",
+      "difficulty": "beginner-intermediate",
+      "topics": [
+        "classifiers",
+        "rag-pipelines",
+        "agent-loops",
+        "module-composition"
+      ],
+      "best_for": [
+        "learning progression",
+        "basic signatures",
+        "pipeline patterns"
+      ],
+      "usage_in_course": [
+        "module-01",
+        "module-02",
+        "module-06"
+      ]
+    },
+    {
+      "name": "Scale3-Labs/dspy-examples",
+      "url": "https://github.com/Scale3-Labs/dspy-examples",
+      "stars": "200+",
+      "focus": "Production patterns with observability",
+      "difficulty": "intermediate-advanced",
+      "topics": [
+        "observability",
+        "error-handling",
+        "monitoring",
+        "production-deployment"
+      ],
+      "best_for": [
+        "production patterns",
+        "debugging strategies",
+        "performance monitoring"
+      ],
+      "usage_in_course": [
+        "module-08",
+        "module-09",
+        "module-10"
+      ]
+    },
+    {
+      "name": "diicellman/dspy-gradio-rag",
+      "url": "https://github.com/diicellman/dspy-gradio-rag",
+      "stars": "100+",
+      "focus": "Full-stack RAG application",
+      "difficulty": "intermediate",
+      "topics": [
+        "fastapi",
+        "gradio",
+        "ollama",
+        "vector-stores",
+        "end-to-end-rag"
+      ],
+      "best_for": [
+        "complete RAG implementation",
+        "frontend integration",
+        "API design"
+      ],
+      "usage_in_course": [
+        "module-06",
+        "projects/reproduce-real-github-project-A"
+      ],
+      "key_patterns": {
+        "bootstrapping": "Uses bootstrapping for few-shot examples",
+        "api_structure": "Clean FastAPI backend architecture",
+        "ui_integration": "Gradio for rapid prototyping"
+      }
+    },
+    {
+      "name": "Weaviate DSPy Recipes",
+      "url": "https://github.com/weaviate/recipes/tree/main/integrations/llm-agent-frameworks/dspy",
+      "stars": "2000+ (parent repo)",
+      "focus": "Vector database integration",
+      "difficulty": "intermediate",
+      "topics": [
+        "weaviate",
+        "retrieval-optimization",
+        "hybrid-search",
+        "vector-stores"
+      ],
+      "best_for": [
+        "RAG with production vector stores",
+        "retrieval strategies",
+        "optimizer usage"
+      ],
+      "usage_in_course": [
+        "module-04",
+        "module-06"
+      ],
+      "key_patterns": {
+        "retrieval": "Multiple retrieval strategies",
+        "optimization": "Optimizer usage examples",
+        "integration": "Clean vector store integration"
+      }
+    },
+    {
+      "name": "Ronoh4/A-DSPy-based-RAG-with-LlamaIndex",
+      "url": "https://github.com/Ronoh4/A-DSPy-based-RAG-with-LlamaIndex",
+      "stars": "50+",
+      "focus": "DSPy + LlamaIndex integration",
+      "difficulty": "advanced",
+      "topics": [
+        "llamaindex",
+        "llamaparse",
+        "pdf-processing",
+        "hybrid-pipelines"
+      ],
+      "best_for": [
+        "framework integration",
+        "document processing",
+        "complex pipelines"
+      ],
+      "usage_in_course": [
+        "module-06",
+        "module-10"
+      ]
+    },
+    {
+      "name": "nshkrdotcom/Awesome-DSPy",
+      "url": "https://github.com/nshkrdotcom/Awesome-DSPy",
+      "stars": "300+",
+      "focus": "Curated resource collection",
+      "difficulty": "all-levels",
+      "topics": [
+        "tutorials",
+        "papers",
+        "blog-posts",
+        "community-resources"
+      ],
+      "best_for": [
+        "discovering resources",
+        "research papers",
+        "community patterns"
+      ],
+      "usage_in_course": "supplementary"
+    }
+  ],
+  "specialized_projects": [
+    {
+      "name": "Multi-Agent RAG System (Isaac Kargar)",
+      "url": "https://kargarisaac.medium.com/building-and-optimizing-multi-agent-rag-systems-with-dspy-and-gepa-2b88b5838ce2",
+      "type": "article-with-code",
+      "focus": "Multi-agent systems with GEPA",
+      "difficulty": "advanced",
+      "topics": [
+        "multi-agent",
+        "gepa-optimizer",
+        "agent-coordination",
+        "specialized-agents"
+      ],
+      "best_for": [
+        "multi-agent patterns",
+        "GEPA usage",
+        "agent coordination"
+      ],
+      "usage_in_course": [
+        "module-04",
+        "module-07"
+      ]
+    },
+    {
+      "name": "DSPy-101 (davila7)",
+      "url": "mentioned in Awesome-DSPy",
+      "type": "course",
+      "focus": "Comprehensive intro course",
+      "difficulty": "beginner-intermediate",
+      "topics": [
+        "fundamentals",
+        "structured-learning",
+        "progressive-examples"
+      ],
+      "best_for": [
+        "structured learning",
+        "fundamentals",
+        "teaching approach"
+      ],
+      "usage_in_course": "reference"
+    },
+    {
+      "name": "dspy-demo (ten24bytes)",
+      "url": "mentioned in Awesome-DSPy",
+      "type": "notebook-collection",
+      "focus": "30+ feature tutorials",
+      "difficulty": "beginner-advanced",
+      "topics": [
+        "jupyter-notebooks",
+        "comprehensive-coverage",
+        "hands-on-examples"
+      ],
+      "best_for": [
+        "feature exploration",
+        "interactive learning",
+        "comprehensive reference"
+      ],
+      "usage_in_course": "supplementary"
+    }
+  ],
+  "projects_by_module": {
+    "module-01-signatures": [
+      "gabrielvanderlei/DSPy-examples",
+      "stanfordnlp/dspy (examples/)"
+    ],
+    "module-02-modules": [
+      "gabrielvanderlei/DSPy-examples",
+      "Scale3-Labs/dspy-examples"
+    ],
+    "module-03-teleprompters": [
+      "stanfordnlp/dspy (examples/teleprompters/)"
+    ],
+    "module-04-optimizers": [
+      "Weaviate recipes",
+      "Multi-Agent RAG System (Isaac Kargar)"
+    ],
+    "module-05-bootstrapping": [
+      "diicellman/dspy-gradio-rag",
+      "Weaviate recipes"
+    ],
+    "module-06-rag": [
+      "diicellman/dspy-gradio-rag",
+      "Weaviate recipes",
+      "Ronoh4/A-DSPy-based-RAG-with-LlamaIndex"
+    ],
+    "module-07-agents": [
+      "Multi-Agent RAG System (Isaac Kargar)",
+      "stanfordnlp/dspy (ReAct examples)"
+    ],
+    "module-08-evaluation": [
+      "Scale3-Labs/dspy-examples",
+      "stanfordnlp/dspy (evaluation examples)"
+    ],
+    "module-09-error-handling": [
+      "Scale3-Labs/dspy-examples"
+    ],
+    "module-10-best-practices": [
+      "Scale3-Labs/dspy-examples",
+      "Ronoh4/A-DSPy-based-RAG-with-LlamaIndex"
+    ]
+  },
+  "reproduction_targets": {
+    "official_docs_reproduction": {
+      "target": "RAG tutorial from dspy.ai",
+      "url": "https://dspy.ai/tutorials/rag/",
+      "goal": "Reproduce official tutorial, document differences",
+      "difficulty": "intermediate",
+      "module_alignment": "module-06"
+    },
+    "project_a_reproduction": {
+      "target": "diicellman/dspy-gradio-rag",
+      "url": "https://github.com/diicellman/dspy-gradio-rag",
+      "goal": "Full-stack RAG with API and UI",
+      "difficulty": "advanced",
+      "module_alignment": "module-06, module-10"
+    },
+    "project_b_reproduction": {
+      "target": "Multi-Agent RAG System",
+      "url": "https://kargarisaac.medium.com/building-and-optimizing-multi-agent-rag-systems-with-dspy-and-gepa-2b88b5838ce2",
+      "goal": "Multi-agent system with GEPA optimization",
+      "difficulty": "advanced",
+      "module_alignment": "module-04, module-07"
+    }
+  },
+  "evaluation_criteria": {
+    "project_quality": {
+      "code_clarity": "Is the code well-structured and documented?",
+      "pattern_value": "Does it demonstrate unique DSPy patterns?",
+      "production_readiness": "Is it close to production quality?",
+      "community_adoption": "Is it actively used/referenced?"
+    },
+    "learning_value": {
+      "beginner_friendly": "Can beginners understand it?",
+      "progressive_complexity": "Does it build skills progressively?",
+      "best_practices": "Does it follow DSPy best practices?",
+      "comparison_opportunity": "Can we contrast with official docs?"
+    }
+  },
+  "metadata": {
+    "last_updated": "2025-12-03",
+    "total_projects": 10,
+    "difficulty_distribution": {
+      "beginner": 2,
+      "intermediate": 4,
+      "advanced": 4
+    },
+    "topic_coverage": {
+      "signatures": 3,
+      "modules": 3,
+      "optimizers": 4,
+      "rag": 5,
+      "agents": 3,
+      "production": 3
+    }
+  }
+}
