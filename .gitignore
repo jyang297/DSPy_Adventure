@@ -4,3 +4,4 @@
 **/__pypackages__/
 **/.venv/
 **/venv/
+**/uv.lock
